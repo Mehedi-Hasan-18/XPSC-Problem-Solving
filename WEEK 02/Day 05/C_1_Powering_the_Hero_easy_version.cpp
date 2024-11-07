@@ -1,6 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-#define int long long
 signed main()
 {
     int t;
@@ -15,7 +14,7 @@ signed main()
         {
             cin >> v[i];
         }
-        int ans = 0;
+        long long int ans = 0;
         for (int i = 0; i < n; i++)
         {
             if (v[i] == 0)
